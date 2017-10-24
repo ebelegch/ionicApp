@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  The world is mine.
+  <p> Hi, {{name}} </p>
+   <input type = "text" placeholder ="Your name" [(ngModel)]="name"/>
+  <button ion-button (click)="click();" color="light">Click me </button>
+  <button ion-button (click)="clickPing();" color="light">ClickPing </button>
+  <button ion-button (click)="gotoMessages();" color="light">gotomessage </button>
+  <button ion-button (click)="gotoLog();" color="light">gotoLoginPage </button>
+
+
+</ion-content>
